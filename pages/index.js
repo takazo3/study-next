@@ -8,16 +8,16 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>About Page</title>
+        <title>IndexPage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>About Page</h1>
+        <h1 className={styles.title}>Index Page</h1>
 
         <p className={styles.description}>
           Get started by editing{" "}
-          <code className={styles.code}>pages/about.js</code>
+          <code className={styles.code}>pages/index.js</code>
         </p>
 
         <Links />
